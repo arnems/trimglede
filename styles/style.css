@@ -1,0 +1,72 @@
+/* CSS Document */
+body { margin:0px; padding:0px}
+body {font-size:0.90em; font-family: Arial; line-height:1.4em;}
+p {margin-top:4px;}
+
+.topLeft {
+	width:250px; 
+	border-right: solid #cccccc thin;
+	border-bottom: solid #cccccc thin;
+	height: 15px;
+	float: left;
+}
+.topRight {
+	width:610px; 
+	border-bottom: solid #cccccc thin;
+	height: 15px;
+	float: left;}
+.picture1 {
+	width: 250px;
+	border-right: solid #cccccc thin;
+	float: left;
+}
+.logo {
+	width: 400px; 
+	xborder-right: solid #cccccc thin;
+	float: left;
+}
+.picture2 {	width: 250px; 
+	float: left;
+}
+.menu {
+	width:230px;
+	float:left;
+	xborder-right: solid #cccccc thin;
+	padding-left: 20px;
+	padding-top: 20px;
+	border-top: solid #cccccc thin;
+}
+.content {
+	float:left;
+	
+	border-top: solid #cccccc thin;
+	border-left: solid #cccccc thin;
+	width:610px; background-color: darkseagreen;
+	margin: 0px 0px 10px 0px;
+	padding: 10px 10px 10px 10px;
+	background-image: url("/images/textbg.jpg");
+	xheight: 380px;
+}
+
+.footer {
+	font-size:0.95em;
+	color: #777777;
+	margin-top: 20px;
+	border-top: solid thin #cccccc ;
+	border-bottom: solid thin #cccccc;
+	border-width:1px;
+	width:600px;
+
+}
+a.menulink, a.menulink:link, a.menulink:visited a.menulink:hover,a.menulink:active {text-decoration:none; color:#666666}
+a.foot, a.foot:link, a.foot:visited a.foot:hover,a.foot:active {text-decoration:underline; color:#777777}
+
+.menuentry {
+	margin-top:5px;
+	font-weight:bold;
+	font-size:1.1em;
+	text-decoration:none;
+}
+.alignRight { float:right; margin: 0 0 15px 15px; }
+
+div.clearer	 {clear:both;font-size:1px;line-height:1px;}
